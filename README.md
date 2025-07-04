@@ -73,8 +73,7 @@ You can use **Zod** to automatically register fields and validate input.
 
 ```js
 import { z } from "zod";
-import { useModal } from "discord-modal-hook";
-import { zodRegister, zodResolver } from "discord-modal-hook/extensions/zod";
+import { useModal, zodRegister, zodResolver } from "discord-modal-hook";
 
 const schema = z.object({
   name: z

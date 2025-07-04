@@ -3,4 +3,6 @@ export {
   type UseModalParams,
   useModal,
 } from "./core";
+
+export * from "./extensions";
 export * from "./types";
